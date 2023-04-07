@@ -7,7 +7,7 @@ import org.junit.runner.*;
 @CucumberOptions(
         plugin = {
                 "pretty",
-                "html:target/cucumber-report.html",
+                "html:target/cucumber",
                 "json:target/cucumber.json",
                 "me.jvt.cucumber.report.PrettyReports:target/cucumber",
         },
